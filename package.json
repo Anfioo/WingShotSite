@@ -1,0 +1,26 @@
+{
+  "name": "wing-shot-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vitepress build",
+    "check": "biome check --write",
+    "dev": "vitepress dev",
+    "format": "biome format --write",
+    "preview": "vitepress preview",
+    "lint": "biome format ./ && biome check ./",
+    "lint:fix": "biome format ./ --write && biome check --write ./"
+  },
+  "dependencies": {
+    "@fuxishi/vitepress-theme": "^1.0.14"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.6",
+    "@types/node": "^18.11.17",
+    "vitepress": "^1.6.4"
+  },
+  "packageManager": "pnpm@11.21.0",
+  "workspaces": [
+    "."
+  ]
+}

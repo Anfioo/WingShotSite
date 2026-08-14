@@ -1,0 +1,16 @@
+# Local
+.DS_Store
+*.local
+*.log*
+
+# Build
+node_modules/
+.vitepress/cache/
+.vitepress/dist/
+dist/
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.pnpm-store/*
