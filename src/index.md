@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: Snow Shot
+  name: Wing Shot
   text: 超好用的截图工具
   tagline: 简单、优雅、社区活跃
   actions:
@@ -12,6 +12,9 @@ hero:
     - theme: alt
       text: 使用说明
       link: /guide/
+    - theme: alt
+      text: 新增功能
+      link: /guide/features/wing-shot
   image:
     src: /app-icon.png
     alt: Logo
@@ -35,3 +38,11 @@ features:
     details: 开源项目，社区活跃，持续迭代优化，不断加入新功能，积极倾听用户反馈
     icon: 🔥
 ---
+
+## 关于 Wing Shot
+
+Wing Shot 是由 **anfioo** 基于 [Snow Shot 官网](https://snowshot.top/) 与 [Snow Shot GitHub 仓库](https://github.com/mg-chao/snow-shot) 所提供项目进行的二次开发版本。项目保留原项目版权声明与适用的许可证条款，Wing Shot 新增和修改的部分由 anfioo 维护。
+
+如原作者或相关权利人认为本站内容、软件分发或展示素材存在侵权问题，请通过 [GitHub Issue](https://github.com/Anfioo/WingShot/issues) 或邮件 [anfioo@wingshot.anfioo.com](mailto:anfioo@wingshot.anfioo.com) 联系处理。
+
+[查看二次开发说明与联系方式](/about/)

@@ -1,8 +1,9 @@
 packages:
   - "."
 
+confirmModulesPurge: false
+packageImportMethod: copy
+verifyDepsBeforeRun: false
+
 allowBuilds:
   esbuild: true
-
-onlyBuiltDependencies:
-  - esbuild

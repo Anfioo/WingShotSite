@@ -1,30 +1,15 @@
 # 下载安装
 
-Snow Shot 是一款功能完备、依靠开源社区驱动的工具软件，旨在为用户带来简单优雅截图体验。
+Wing Shot 是一款基于 Snow Shot 二次开发的截图工具，旨在提供简单、高效的截图与内容处理体验。
 
 ## 下载方式
 
-Snow Shot 目前支持 Windows 和 MacOS 操作系统。
+Wing Shot 目前支持 Windows 和 macOS，具体可用安装包以 GitHub Releases 页面为准。
 
-### Windows
+请前往 Wing Shot 发布页面，根据版本说明选择适合系统与架构的安装包：
 
-- [Windows x64](https://snowshot.top/setup/Snow%20Shot_windows-x64.exe)
-- [Windows x64 绿色版（无法运行请使用安装版）](https://snowshot.top/setup/Snow%20Shot_windows-x64-portable.zip)
-
-#### 最新版 Windows 的 WebView 在 4K 分辨率及以上的显示器（或多个显示器组合）上存在渲染性能问题，请尝试使用以下版本
-
-- [Windows x64 修复](https://snowshot.top/setup/Snow%20Shot_windows-x64-fixedRuntime.exe)
-
-### MacOS
-
-- [MacOS AArch64](https://snowshot.top/setup/Snow%20Shot_macos-aarch64.dmg)
-- [MacOS Intel](https://snowshot.top/setup/Snow%20Shot_macos-x64.dmg)
-
-### 分流
-
-可以通过以下渠道获取 Snow Shot 各个系统的安装包。
-
-- [GitHub Releases](https://github.com/mg-chao/snow-shot/releases)
+- [下载最新版本](https://github.com/Anfioo/WingShot/releases/latest)
+- [查看全部 GitHub Releases](https://github.com/Anfioo/WingShot/releases)
 
 ## 安装方式
 
@@ -40,12 +25,12 @@ Snow Shot 目前支持 Windows 和 MacOS 操作系统。
 
 *Windows 10 的部分旧版本可能无法直接通过绿色版直接运行，建议先通过安装包完成依赖的安装后再使用绿色版*
 
-### MacOS
+### macOS
 
 #### 安装包
 
-打开安装包后，将 Snow Shot 的图标拖入到显示出的文件夹中。
+打开安装包后，将 Wing Shot 的图标拖入到显示出的文件夹中。
 
 ![MacOS 安装示例](/docs-imgs/macos-install.webp)
 
-常见问题：**[Snow Shot 已损坏，无法打开](/faq/macOs/1)**
+常见问题：**[Wing Shot 已损坏，无法打开](/faq/macOs/1)**

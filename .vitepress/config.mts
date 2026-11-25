@@ -9,11 +9,11 @@ export default defineConfig<ThemeConfig>({
 	extends: fxConfig,
 	srcDir: "src",
 	lang: "zh-CN",
-	title: "Snow Shot",
-	description: "简单优雅的截图工具",
+	title: "Wing Shot",
+	description: "基于 Snow Shot 二次开发的高效截图工具",
 	cleanUrls: true,
 	lastUpdated: true,
-	head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+	head: [["link", { rel: "icon", type: "image/png", href: "/favicon.png" }]],
 	themeConfig: {
 		logo: {
 			light: "/app-icon-nav.png",
@@ -22,17 +22,20 @@ export default defineConfig<ThemeConfig>({
 		nav: [
 			{ text: "下载安装", link: "/download/" },
 			{ text: "使用说明", link: "/guide/" },
+			{ text: "WingShot 新功能", link: "/guide/features/wing-shot" },
 			{ text: "常见问题", link: "/faq/common/1" },
 			{ text: "社区交流", link: "/community/" },
+			{ text: "关于项目", link: "/about/" },
 			{
 				text: "更新日志",
-				link: "https://github.com/mg-chao/snow-shot/releases",
+				link: "https://github.com/Anfioo/WingShot/releases",
 			},
 		],
 		sidebar: {
 			"/download/": [{ text: "下载安装", link: "/download/" }],
 			"/guide/": [
 				{ text: "快速入门", link: "/guide/" },
+				{ text: "WingShot 新功能", link: "/guide/features/wing-shot" },
 				{
 					text: "软件功能",
 					collapsible: true,
@@ -104,25 +107,25 @@ export default defineConfig<ThemeConfig>({
 					collapsible: true,
 					items: [
 						{
-							text: "Snow Shot 已损坏，无法打开",
+							text: "Wing Shot 已损坏，无法打开",
 							link: "/faq/macOs/1",
 						},
 						{
-							text: "更新 Snow Shot 提示无权限",
+							text: "更新 Wing Shot 提示无权限",
 							link: "/faq/macOs/2",
 						},
 					],
 				},
 			],
 			"/community/": [{ text: "社区交流", link: "/community/" }],
+			"/about/": [{ text: "关于项目", link: "/about/" }],
 		},
 		socialLinks: [
-			{ icon: "github", link: "https://github.com/mg-chao/snow-shot" },
+			{ icon: "github", link: "https://github.com/Anfioo/WingShot" },
 		],
 		footer: {
-			message: "© 2025 Snow Shot",
-			copyright:
-				'<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">赣ICP备2021006312号-3</a>',
+			message: "Wing Shot 是基于 Snow Shot 的二次开发项目",
+			copyright: "© 2026 anfioo · 原项目版权归原作者所有",
 		},
 		docFooter: {
 			prev: "上一篇",
